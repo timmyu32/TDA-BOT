@@ -65,12 +65,12 @@ if len(q) >= 0:
                 #ths is the "Next" button to get to the page where you type the password
                 next_btn = driver2.find_element_by_xpath("//div[@id='identifierNext']")
                 #sends email adress info
-                textbox.send_keys("johnstarte@gmail.com")
+                textbox.send_keys(*******) #Change this for your own email
                 #clicks next
                 next_btn.click()
                 time.sleep(5)
                 textbox2 = driver2.find_element_by_xpath("//input[@name='password']")
-                textbox2.send_keys("jjjkkklll")
+                textbox2.send_keys(******) #Your Passowrd
                 next_btn2 = driver2.find_element_by_xpath("//span[@class='RveJvd snByac']")
                 next_btn2.click()
                 timeout = 20
@@ -80,11 +80,11 @@ if len(q) >= 0:
                 time.sleep(3.3)
                 email_address = driver2.find_element_by_xpath("//textarea[@class= 'vO']")
                 subject_box = driver2.find_element_by_xpath("//input[@name='subjectbox']")
-                email_address.send_keys("tuzoegbut@gmail.com")
+                email_address.send_keys(********) #Change for your own info
                 subject_box.send_keys('Drive Time Alert')
                 messege_box = driver2.find_element_by_xpath("//div[@class='Am Al editable LW-avf']")
                 messege_box.click()
-                messege_box.send_keys('TIMOTHY JOHN UZOEGBU, there are 1 hour drive times avaliable... One is '+date+' at '+' time. Go to https://www.genbook.com/bookings/slot/reservation/30011361/1135179/-1?bookingSourceId=1000&category=1135193 to find out more')
+                messege_box.send_keys('Hey, there are 1 hour drive times avaliable... One is '+date+' at '+' time. Go to https://www.genbook.com/bookings/slot/reservation/30011361/1135179/-1?bookingSourceId=1000&category=1135193 to find out more')
                 send_btn = driver2.find_element_by_xpath("//div[@class='T-I J-J5-Ji aoO T-I-atl L3']")
                 send_btn.click()
                 time.sleep(8)
@@ -144,12 +144,12 @@ if len(q) >= 0:
                 #ths is the "Next" button to get to the page where you type the password
                 next_btn = driver2.find_element_by_xpath("//div[@id='identifierNext']")
                 #sends email adress info
-                textbox.send_keys("johnstarte@gmail.com")
+                textbox.send_keys(********) #Change for your own email
                 #clicks next
                 next_btn.click()
                 time.sleep(5)
                 textbox2 = driver2.find_element_by_xpath("//input[@name='password']")
-                textbox2.send_keys("jjjkkklll")
+                textbox2.send_keys(******) #Your password
                 next_btn2 = driver2.find_element_by_xpath("//span[@class='RveJvd snByac']")
                 next_btn2.click()
                 timeout = 20
@@ -159,11 +159,11 @@ if len(q) >= 0:
                 time.sleep(3.3)
                 email_address = driver2.find_element_by_xpath("//textarea[@class= 'vO']")
                 subject_box = driver2.find_element_by_xpath("//input[@name='subjectbox']")
-                email_address.send_keys("tuzoegbut@gmail.com")
+                email_address.send_keys(*******) #Change for your own email 
                 subject_box.send_keys('Drive Time Alert')
                 messege_box = driver2.find_element_by_xpath("//div[@class='Am Al editable LW-avf']")
                 messege_box.click()
-                messege_box.send_keys('TIMOTHY JOHN UZOEGBU, there are 2 hour drive times avaliable. Go to https://www.genbook.com/bookings/slot/reservation/30011361/1135179/-1?bookingSourceId=1000&category=1135193 to find out more')
+                messege_box.send_keys('Hey, there are 2 hour drive times avaliable. Go to https://www.genbook.com/bookings/slot/reservation/30011361/1135179/-1?bookingSourceId=1000&category=1135193 to find out more')
                 send_btn = driver2.find_element_by_xpath("//div[@class='T-I J-J5-Ji aoO T-I-atl L3']")
                 send_btn.click()
                 time.sleep(8)
